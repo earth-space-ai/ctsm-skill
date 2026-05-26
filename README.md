@@ -65,6 +65,35 @@ This skill is grounded in:
 7. **CTSM wiki**: https://github.com/ESCOMP/CTSM/wiki
 8. **Lawrence et al. 2019**, "The Community Land Model Version 5", JAMES, doi:10.1029/2018MS001583
 
+## Acknowledgments
+
+**Gold-standard references for CTSM** (use these to cross-check anything in this skill):
+- CTSM Sphinx docs: https://escomp.github.io/CTSM/
+- ESCOMP/CTSM repository and wiki: https://github.com/ESCOMP/CTSM and https://github.com/ESCOMP/CTSM/wiki
+- CLM5 description paper: Lawrence et al. 2019, JAMES, doi:10.1029/2018MS001583
+- In-repo `bld/namelist_files/namelist_definition_ctsm.xml` for namelist semantics
+
+This skill exists only because of the work of other people, and any value it
+has is borrowed from theirs.
+
+- The **NCAR/CGD CTSM software engineering and science teams** for
+  maintaining [ESCOMP/CTSM](https://github.com/ESCOMP/CTSM), the Sphinx docs
+  at https://escomp.github.io/CTSM/, the in-tree READMEs and checklists, and
+  the namelist definition file that this skill leans on for parameter
+  semantics.
+- **Lawrence et al. (2019)** for the CLM5 description paper
+  (doi:10.1029/2018MS001583), the foundation for the physics and biogeochemistry
+  framing here.
+- The contributors to the **CTSM wiki** and the **LILAC docs** for the
+  procedural detail that no paper covers.
+- **Zesen Huang** for [laps-skill](https://github.com/huangzesen/laps-skill),
+  the progressive-disclosure layout this repo borrows.
+- Sibling skills `noahmp-skill`, `cam-skill`, and `e3sm-skill` for shared
+  structure and cross-references on coupled CESM workflows.
+
+Any errors, oversimplifications, or out-of-date claims in this skill are the
+skill author's responsibility, not the upstream community's.
+
 ## Install
 
 This skill follows the same layout as
